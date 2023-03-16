@@ -70,3 +70,17 @@ home page
     
 </div> 
 {% endblock %}
+
+------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+<title>NextBus</title>
+</head>
+<body>
+{% include 'navbar.html' %}
+{% block content %}
+{% endblock %}
+
+</body>
+</html>
